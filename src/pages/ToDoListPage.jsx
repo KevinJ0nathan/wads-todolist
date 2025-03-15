@@ -8,8 +8,8 @@ import "./ToDoListPage.css";
 import ProgressTracker from "../components/ProgressTracker";
 import AddTaskButton from "../components/AddTaskButton";
 import SearchBar from "../components/SearchBar";
-import Task from "../components/task";
 import UserContext from "../context/UserContext";
+import Task from "../components/task";
 
 
 const ToDoListPage = () => {
