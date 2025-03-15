@@ -44,12 +44,12 @@ const Task = ({ taskName, task, dueDate, description, onDelete }) => {
       >
         <div className="flex gap-5 items-center">
           <div 
-            className={`w-4 h-4 rounded-full ${getPriorityColor()}`} 
+            className={`w-4 h-4 flex-none rounded-full ${getPriorityColor()}`} 
             title={`Due in ${Math.ceil((new Date(dueDate) - new Date()) / (1000 * 60 * 60 * 24))} days`}
           ></div>
           <input 
             type="checkbox" 
-            className="w-6 h-6"
+            className="w-6 h-6 flex-none"
             checked={isCompleted} 
             onClick={(e) => {
               e.stopPropagation();}}
