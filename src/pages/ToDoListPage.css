@@ -1,0 +1,13 @@
+  .todo-page-body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    display: block;
+    overflow-x: hidden;
+  }
+  
+  .todo-page-body #root {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
