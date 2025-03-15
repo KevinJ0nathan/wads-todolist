@@ -9,7 +9,7 @@ import ProgressTracker from "../components/ProgressTracker";
 import AddTaskButton from "../components/AddTaskButton";
 import SearchBar from "../components/SearchBar";
 import UserContext from "../context/UserContext";
-import Task from "../components/task";
+import Task from "../components/Task";
 
 
 const ToDoListPage = () => {
