@@ -83,7 +83,6 @@ const ToDoListPage = () => {
     fetchUserData();
   }, [user, loading, navigate]);
 
-  // 🔥 Real-time listener for tasks
   useEffect(() => {
     if (!user) return;
 
