@@ -1,12 +1,35 @@
-# React + Vite
+# ToDoList APP - Wads Week 5 Homework
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built with Vite and integrated with Firebase for authentication and database.
 
-Currently, two official plugins are available:
+## 🛠️ Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1️⃣ Clone the repository
+```sh
+git clone https://github.com/KevinJ0nathan/wads-todolist.git
+cd wads-todolist
+```
+2️⃣ Install Dependencies
+```sh
+npm install
+```
+3️⃣ Set Up Firebase
+1. Go to Firebase console and create a new project.
+2. Enable Authentication → Sign-in method → Enable Google Sign-In.
+3. Set up Firestore Database in test mode for development.
+4. Get your Firebase configuration and create a .env file in the project root:
+``` env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_APP_ID=your_app_id
+VITE_MEASUREMENT_ID=your_measurement_id
+```
+**Make sure to not commit the `.env` file to GitHub! Add it to `.gitignore`.**
 
-## Expanding the ESLint configuration
+4️⃣ Run the Development Server
+` npm run dev `
+The app should now be running on `http://localhost:5173/`
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
