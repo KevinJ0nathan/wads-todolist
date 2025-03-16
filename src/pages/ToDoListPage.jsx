@@ -33,7 +33,7 @@ const ToDoListPage = () => {
     const matchesFilter = filter === "all" || 
                           (filter === "completed" && task.completed) || 
                           (filter === "pending" && !task.completed) || 
-                          (filter === "overdue" && new Date(task.dueDate.seconds * 1000) < new Date());
+                          (filter === "overdue" && !task.completed && new Date(task.dueDate.seconds * 1000) < new Date());
 
     return matchesSearchQuery && matchesFilter;  
   })
