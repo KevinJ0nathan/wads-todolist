@@ -1,6 +1,12 @@
 # ToDoList APP - Wads Week 5 Homework
 
-A React application built with Vite and integrated with Firebase for authentication and database.
+A simple and efficient To-Do List web app built with React + Vite, styled with Tailwind CSS, and powered by Firebase for authentication and database storage.
+
+🚀 Features
+- Google Authentication (Firebase Auth)
+- Add, edit, and delete tasks
+- Store tasks in Firestore Database
+- Responsive design with Tailwind CSS
 
 ## 🛠️ Installation
 
@@ -30,6 +36,8 @@ VITE_MEASUREMENT_ID=your_measurement_id
 **Make sure to not commit the `.env` file to GitHub! Add it to `.gitignore`.**
 
 4️⃣ Run the Development Server
-` npm run dev `
+```sh
+npm run dev
+```
 The app should now be running on `http://localhost:5173/`
 
