@@ -1,13 +1,17 @@
 # ToDoList APP - Wads Week 5 Homework
 
-A simple and efficient To-Do List web app built with React + Vite, styled with Tailwind CSS, and powered by Firebase for authentication and database storage.
+A simple and efficient To-Do List web app built with React + Vite, styled with Tailwind CSS, and powered by Firebase for authentication and database storage. 
 
-🚀 Features
-- Google Authentication (Firebase Auth)
-- Add, edit, and delete tasks
-- Store tasks in Firestore Database
+## 🌍 Live Demo  
+🚀 The app is deployed on **Vercel**! You can check it out here:  
+👉 **[Live Demo](https://wads-todolist-three.vercel.app/)**
+
+## 🚀 Features  
+- Google Authentication (Firebase Auth)  
+- Add, edit, and delete tasks  
+- Store tasks in Firestore Database  
 - Responsive design with Tailwind CSS
-
+  
 ## 🛠️ Installation
 
 1️⃣ Clone the repository
